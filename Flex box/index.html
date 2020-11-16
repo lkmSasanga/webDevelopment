@@ -1,0 +1,151 @@
+<html>
+
+<head>
+    <style>
+        /* media query shows limit of styles valid for */
+        
+        @media(min-width: 760px) {
+            .container-1 {
+                display: flex;
+                /* align-items: flex-start+; */
+                /* align-items: flex-end; */
+                /* align-items: center; */
+                /* flex-direction: column; */
+            }
+            .container-2 {
+                display: flex;
+                /* justify-content: flex-start; */
+                /* justify-content: flex-end; */
+                /* justify-content: center; */
+                /* justify-content: space-around; */
+                justify-content: space-between;
+            }
+        }
+        
+        .container-3 {
+            display: flex;
+            flex-wrap: wrap;
+            justify-content: space-between;
+        }
+        
+        .container-1 div,
+        .container-2 div,
+        .container-3 div {
+            border: 1px #ccc solid;
+            padding: 10px;
+        }
+        
+        .box-1 {
+            flex: 2;
+            order: 2;
+        }
+        
+        .box-2 {
+            flex: 1;
+            order: 1;
+        }
+        
+        .box-3 {
+            flex: 1;
+            order: 3;
+        }
+        
+        .container-2-box {
+            flex-basis: 27%;
+        }
+        
+        .container-3-box {
+            flex-basis: 12%;
+        }
+    </style>
+</head>
+
+<body>
+
+    <div class="container-1">
+        <div class="box-1">
+            <h3>Box One</h3>
+            <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Expedita, nam.</p>
+        </div>
+        <div class="box-2">
+            <h3>Box Two</h3>
+            <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Expedita, nam.</p>
+        </div>
+        <div class="box-3">
+            <h3>Box Three</h3>
+            <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Expedita, nam.</p>
+        </div>
+    </div>
+
+
+    <div class="container-2">
+        <div class="container-2-box">
+            <h3>Box Four</h3>
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Velit sit quibusdam a, nesciunt quia, necessitatibus iure tempora odio qui laudantium possimus? Distinctio, ducimus? Officiis, id rerum expedita dolores repudiandae iste labore non adipisci
+                perferendis! Aperiam ex ab nobis, neque, repellendus dolore reiciendis, animi laborum assumenda magni aliquid repellat nesciunt quis porro exercitationem nulla illum facilis et necessitatibus odit officiis cum doloribus. Officiis exercitationem
+                architecto, ullam itaque officia atque fugit magnam nesciunt hic nisi aspernatur at similique voluptates. Ducimus quasi suscipit sapiente consectetur voluptatum in, alias possimus repudiandae aliquid cumque officia mollitia eum ipsum eligendi
+                ipsam dolorum, ratione aut sunt sed.</p>
+        </div>
+        <div class="container-2-box">
+            <h3>Box Five</h3>
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Velit sit quibusdam a, nesciunt quia, necessitatibus iure tempora odio qui laudantium possimus? Distinctio, ducimus? Officiis, id rerum expedita dolores repudiandae iste labore non adipisci
+                perferendis! Aperiam ex ab nobis, neque, repellendus dolore reiciendis, animi laborum assumenda magni aliquid repellat nesciunt quis porro exercitationem nulla illum facilis et necessitatibus odit officiis cum doloribus. Officiis exercitationem
+                architecto, ullam itaque officia atque fugit magnam nesciunt hic nisi aspernatur at similique voluptates. Ducimus quasi suscipit sapiente consectetur voluptatum in, alias possimus repudiandae aliquid cumque officia mollitia eum ipsum eligendi
+                ipsam dolorum, ratione aut sunt sed.</p>
+        </div>
+        <div class="container-2-box">
+            <h3>Box Six</h3>
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Velit sit quibusdam a, nesciunt quia, necessitatibus iure tempora odio qui laudantium possimus? Distinctio, ducimus? Officiis, id rerum expedita dolores repudiandae iste labore non adipisci
+                perferendis! Aperiam ex ab nobis, neque, repellendus dolore reiciendis, animi laborum assumenda magni aliquid repellat nesciunt quis porro exercitationem nulla illum facilis et necessitatibus odit officiis cum doloribus. Officiis exercitationem
+                architecto, ullam itaque officia atque fugit magnam nesciunt hic nisi aspernatur at similique voluptates. Ducimus quasi suscipit sapiente consectetur voluptatum in, alias possimus repudiandae aliquid cumque officia mollitia eum ipsum eligendi
+                ipsam dolorum, ratione aut sunt sed.</p>
+        </div>
+    </div>
+
+    <div class="container-3">
+        <div class="container-3-box">
+            <h3>Box Seven</h3>
+            <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Illo non maiores reprehenderit dolore aspernatur iure, nostrum porro exercitationem velit beatae voluptate excepturi quod corporis praesentium aliquid placeat molestiae, facilis laudantium
+                fugit maxime unde. Eligendi cumque dolores, deleniti asperiores illum molestias libero mollitia quae unde esse amet laborum, vitae inventore repellendus omnis dolor dignissimos perspiciatis suscipit? Dicta autem ad accusantium nisi quod
+                iste ipsam iusto fugit, vero cum voluptas consequuntur, modi non facilis eum unde excepturi ullam quibusdam. Id consectetur rerum animi quibusdam ducimus vero sint iusto recusandae, asperiores voluptatum fugit delectus doloremque quas
+                fugiat, sunt, reiciendis hic error sapiente vitae?</p>
+        </div>
+        <div class="container-3-box">
+            <h3>Box Eight</h3>
+            <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Illo non maiores reprehenderit dolore aspernatur iure, nostrum porro exercitationem velit beatae voluptate excepturi quod corporis praesentium aliquid placeat molestiae, facilis laudantium
+                fugit maxime unde. Eligendi cumque dolores, deleniti asperiores illum molestias libero mollitia quae unde esse amet laborum, vitae inventore repellendus omnis dolor dignissimos perspiciatis suscipit? Dicta autem ad accusantium nisi quod
+                iste ipsam iusto fugit, vero cum voluptas consequuntur, modi non facilis eum unde excepturi ullam quibusdam. Id consectetur rerum animi quibusdam ducimus vero sint iusto recusandae, asperiores voluptatum fugit delectus doloremque quas
+                fugiat, sunt, reiciendis hic error sapiente vitae?</p>
+        </div>
+        <div class="container-3-box">
+            <h3>Box Nine</h3>
+            <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Illo non maiores reprehenderit dolore aspernatur iure, nostrum porro exercitationem velit beatae voluptate excepturi quod corporis praesentium aliquid placeat molestiae, facilis laudantium
+                fugit maxime unde. Eligendi cumque dolores, deleniti asperiores illum molestias libero mollitia quae unde esse amet laborum, vitae inventore repellendus omnis dolor dignissimos perspiciatis suscipit? Dicta autem ad accusantium nisi quod
+                iste ipsam iusto fugit, vero cum voluptas consequuntur, modi non facilis eum unde excepturi ullam quibusdam. Id consectetur rerum animi quibusdam ducimus vero sint iusto recusandae, asperiores voluptatum fugit delectus doloremque quas
+                fugiat, sunt, reiciendis hic error sapiente vitae?</p>
+        </div>
+        <div class="container-3-box">
+            <h3>Box Ten</h3>
+            <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Illo non maiores reprehenderit dolore aspernatur iure, nostrum porro exercitationem velit beatae voluptate excepturi quod corporis praesentium aliquid placeat molestiae, facilis laudantium
+                fugit maxime unde. Eligendi cumque dolores, deleniti asperiores illum molestias libero mollitia quae unde esse amet laborum, vitae inventore repellendus omnis dolor dignissimos perspiciatis suscipit? Dicta autem ad accusantium nisi quod
+                iste ipsam iusto fugit, vero cum voluptas consequuntur, modi non facilis eum unde excepturi ullam quibusdam. Id consectetur rerum animi quibusdam ducimus vero sint iusto recusandae, asperiores voluptatum fugit delectus doloremque quas
+                fugiat, sunt, reiciendis hic error sapiente vitae?</p>
+        </div>
+        <div class="container-3-box">
+            <h3>Box Eleven</h3>
+            <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Illo non maiores reprehenderit dolore aspernatur iure, nostrum porro exercitationem velit beatae voluptate excepturi quod corporis praesentium aliquid placeat molestiae, facilis laudantium
+                fugit maxime unde. Eligendi cumque dolores, deleniti asperiores illum molestias libero mollitia quae unde esse amet laborum, vitae inventore repellendus omnis dolor dignissimos perspiciatis suscipit? Dicta autem ad accusantium nisi quod
+                iste ipsam iusto fugit, vero cum voluptas consequuntur, modi non facilis eum unde excepturi ullam quibusdam. Id consectetur rerum animi quibusdam ducimus vero sint iusto recusandae, asperiores voluptatum fugit delectus doloremque quas
+                fugiat, sunt, reiciendis hic error sapiente vitae?</p>
+        </div>
+        <div class="container-3-box">
+            <h3>Box Twelve</h3>
+            <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Illo non maiores reprehenderit dolore aspernatur iure, nostrum porro exercitationem velit beatae voluptate excepturi quod corporis praesentium aliquid placeat molestiae, facilis laudantium
+                fugit maxime unde. Eligendi cumque dolores, deleniti asperiores illum molestias libero mollitia quae unde esse amet laborum, vitae inventore repellendus omnis dolor dignissimos perspiciatis suscipit? Dicta autem ad accusantium nisi quod
+                iste ipsam iusto fugit, vero cum voluptas consequuntur, modi non facilis eum unde excepturi ullam quibusdam. Id consectetur rerum animi quibusdam ducimus vero sint iusto recusandae, asperiores voluptatum fugit delectus doloremque quas
+                fugiat, sunt, reiciendis hic error sapiente vitae?</p>
+        </div>
+    </div>
+</body>
+
+</html>
